@@ -18,3 +18,5 @@ def load_data(filepath):
     except FileNotFoundError:
         print(f"❌ Filen {filepath} hittades inte!")
         return None
+
+   hej = input("Skriv ditt namn:")
