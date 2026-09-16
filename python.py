@@ -13,8 +13,10 @@ def load_data(filepath):
                 # Gör om temperaturen till ett flyttal
                 row['temperature'] = float(row['temperature'])
                 data.append(row)
-        print(f"✅ Laddade {len(data)} rader från {filepath}")
+        print(f"Laddar data från fil")
         return data
     except FileNotFoundError:
         print(f"❌ Filen {filepath} hittades inte!")
         return None
+
+   hej = input("Skriv ditt namn:")
